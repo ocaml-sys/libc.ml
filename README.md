@@ -7,7 +7,38 @@ target and architecture aware API.
 Platforms included:
 
 * `aarch64-macos-darwin`
-* PRs welcome!
+* PRs welcome -- see [Contributing](#contributing)
+
+## Usage
+
+Pin it in your OPAM:
+
+```
+opam pin add libc.0.0.1 git+https://github.com/leostera/libc.ml
+```
+
+Add it to your dune project:
+
+```
+(depends 
+   (libc (>= "0.0.1"))
+   ...)
+```
+
+Add it to your dune libraries:
+
+```
+(library
+  (name my_lib)
+  (libraries libc))
+```
+
+Use it in your code:
+
+```ocaml
+let flags = Libc.(ev_clear lor ev_receipt lor ev_add) in
+(* ... *)
+```
 
 ## Contributing
 

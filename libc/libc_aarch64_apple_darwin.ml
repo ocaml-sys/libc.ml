@@ -627,12 +627,10 @@ let mincore_modified_other : c_int = 0x10
 
 (* sys/netinet/in.h
    protocols (rfc 1700)
-   ipproto_ip defined in src/unix/mod.rs
 *)
 
 (** ip6 hop-by-hop options *)
 let ipproto_hopopts : c_int = 0
-(* // ipproto_icmp defined in src/unix/mod.rs *)
 
 (** group mgmt protocol *)
 let ipproto_igmp : c_int = 2
@@ -642,7 +640,6 @@ let ipproto_ggp : c_int = 3
 
 (** for compatibility *)
 let ipproto_ipip : c_int = 4
-(* // ipproto_tcp defined in src/unix/mod.rs *)
 
 (** stream protocol ii. *)
 let ipproto_st : c_int = 7
@@ -673,7 +670,6 @@ let ipproto_xnet : c_int = 15
 
 (** chaos *)
 let ipproto_chaos : c_int = 16
-(* // ipproto_udp defined in src/unix/mod.rs *)
 
 (** multiplexing *)
 let ipproto_mux : c_int = 18
@@ -743,7 +739,6 @@ let ipproto_tpxx : c_int = 39
 
 (** il transport protocol *)
 let ipproto_il : c_int = 40
-(* // ipproto_ipv6 defined in src/unix/mod.rs *)
 
 (** source demand routing *)
 let ipproto_sdrp : c_int = 42
@@ -783,7 +778,6 @@ let ipproto_swipe : c_int = 53
 
 (** next hop resolution *)
 let ipproto_nhrp : c_int = 54
-(* // ipproto_icmpv6 defined in src/unix/mod.rs *)
 
 (** ip6 no next header *)
 let ipproto_none : c_int = 59
