@@ -569,6 +569,7 @@ let epollet : c_int = 0x80000000
 let epoll_ctl_add : c_int = 1
 let epoll_ctl_mod : c_int = 3
 let epoll_ctl_del : c_int = 2
+let epoll_cloexec : c_int = 0x80000
 let mnt_force : c_int = 0x1
 let mnt_detach : c_int = 0x2
 let mnt_expire : c_int = 0x4
