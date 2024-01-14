@@ -5,26 +5,21 @@
 (generate_opam_files true)
 
 (source
- (github username/reponame))
+ (github leostera/libc.ml))
 
-(authors "Author Name")
+(authors "Leandro Ostera <leandro@abstractmachines.dev>")
 
-(maintainers "Maintainer Name")
+(maintainers "Leandro Ostera <leandro@abstractmachines.dev>")
 
-(license LICENSE)
-
-(documentation https://url/to/documentation)
+(license MIT)
 
 (package
  (name libc)
- (synopsis "A short synopsis")
- (description "A longer description")
+ (synopsis "Raw definitions and bindings to platforms system libraries")
+ (description "`libc provides definitions (and in the future bindings) to easily interoperate with C code (or C-like code) on several platforms, and it does this with a target and architecture aware API.")
  (depends 
    (config (>= "0.0.1"))
-   ocaml
-   dune
-          )
+   (ocaml (>= "5.1.1"))
+   dune)
  (tags
-  (topics "to describe" your project)))
-
-; See the complete stanza docs at https://dune.readthedocs.io/en/stable/dune-files.html#dune-project
+  (libc platform bindings "raw bindings")))

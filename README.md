@@ -42,15 +42,17 @@ let flags = Libc.(ev_clear lor ev_receipt lor ev_add) in
 
 ## Contributing
 
-Including new platforms, while tedious, is pretty straightforward. We are using Rust's `libc` as a template for what are interesting/useful definitions on each platform.
+Including new platforms, while tedious, is pretty straightforward. We are using
+Rust's `libc` as a template for what are interesting/useful definitions on each
+platform.
 
 That way, the easiest way to get started is to find the right platform version
 of `libc` for Rust, and translate the definitions.
 
 For example, for `aarch64-apple-darwin` the definitions are found
-[here](https://docs.rs/libc/latest/aarch64-apple-darwin/src/libc/unix/bsd/apple/mod.rs.html#4438). If you use the 'platforms' drop-down you can find your platform, and we can
+[here](https://docs.rs/libc/latest/aarch64-apple-darwin/src/libc/unix/bsd/apple/mod.rs.html#4438).
+If you use the 'platforms' drop-down you can find your platform, and we can
 start porting from there.
 
 Common types are currently included in the `types.ml` module, so you can `open
 Types` at the top of your new module.
-
