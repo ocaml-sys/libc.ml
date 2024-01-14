@@ -4,12 +4,16 @@
 with C code (or "C-like" code) on several platforms, and it does this with a
 target and architecture aware API.
 
-Platforms included:
+Preliminary platform support includes:
 
 * `aarch64-macos-darwin`
+* `aarch64-unknown-linux-gnu`
+* `aarch64-unknown-linux-musl`
 * `x86_64-unknown-linux-gnu`
 * `x86_64-unknown-linux-musl`
 * PRs welcome -- see [Contributing](#contributing)
+
+None of these are complete, but they are being extended on a need basis.
 
 ## Usage
 
