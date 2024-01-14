@@ -8,6 +8,7 @@ type u32 = int32
 type i64 = int64
 type u64 = int64
 type c_ulong = int
+type c_ulonglong = int64
 type c_long = int
 type c_void
 type c_uint = int

@@ -7,6 +7,8 @@ target and architecture aware API.
 Platforms included:
 
 * `aarch64-macos-darwin`
+* `x86_64-unknown-linux-gnu`
+* `x86_64-unknown-linux-musl`
 * PRs welcome -- see [Contributing](#contributing)
 
 ## Usage
