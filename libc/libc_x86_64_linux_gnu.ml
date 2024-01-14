@@ -1,6 +1,7 @@
 (** x86_64-specific definitions for 64-bit linux-like values *)
 
 open Types
+include Linux_like
 
 type c_char = i8
 type wchar_t = i32

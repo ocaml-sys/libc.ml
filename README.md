@@ -58,3 +58,13 @@ start porting from there.
 
 Common types are currently included in the `types.ml` module, so you can `open
 Types` at the top of your new module.
+
+If you follow this path, here's some useful transformations you can apply with sed:
+
+```sh
+sed 's/<</lsl/g'
+sed 's/|/lor/g'
+sed 's/const /let /g'
+sed 's/:://g'
+sed 's/;;//g'
+```

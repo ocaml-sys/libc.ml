@@ -1,4 +1,5 @@
 open Types
+include Linux_like
 
 type clock_t = c_long
 type time_t = c_long
@@ -39,6 +40,7 @@ let nccs : usize = 32
 let o_trunc : c_int = 512
 let o_noatime : c_int = 0o1000000
 let o_cloexec : c_int = 0x80000
+
 (* let o_tmpfile : c_int = 0o20000000 lor o_directory *)
 let ebfont : c_int = 59
 let enostr : c_int = 60
@@ -239,6 +241,7 @@ let xdp_umem_fill_ring : c_int = 5
 let xdp_umem_completion_ring : c_int = 6
 let xdp_statistics : c_int = 7
 let xdp_options : c_int = 8
+
 (* let xdp_options_zerocopy : __u32 = 1 lsl 0 *)
 let xdp_pgoff_rx_ring : off_t = 0L
 let xdp_pgoff_tx_ring : off_t = 0x80000000L
