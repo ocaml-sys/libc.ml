@@ -5,7 +5,7 @@
 (generate_opam_files true)
 
 (source
- (github leostera/libc.ml))
+ (github ocaml-sys/libc.ml))
 
 (authors "Leandro Ostera <leandro@abstractmachines.dev>")
 

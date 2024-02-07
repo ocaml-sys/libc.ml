@@ -7,8 +7,8 @@ maintainer: ["Leandro Ostera <leandro@abstractmachines.dev>"]
 authors: ["Leandro Ostera <leandro@abstractmachines.dev>"]
 license: "MIT"
 tags: ["libc" "platform" "bindings" "raw bindings"]
-homepage: "https://github.com/leostera/libc.ml"
-bug-reports: "https://github.com/leostera/libc.ml/issues"
+homepage: "https://github.com/ocaml-sys/libc.ml"
+bug-reports: "https://github.com/ocaml-sys/libc.ml/issues"
 depends: [
   "config" {>= "0.0.1"}
   "ocaml" {>= "5.1.1"}
@@ -29,4 +29,4 @@ build: [
     "@doc" {with-doc}
   ]
 ]
-dev-repo: "git+https://github.com/leostera/libc.ml.git"
+dev-repo: "git+https://github.com/ocaml-sys/libc.ml.git"
