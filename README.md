@@ -9,6 +9,7 @@ Preliminary platform support includes:
 * `aarch64-macos-darwin`
 * `aarch64-unknown-linux-gnu`
 * `aarch64-unknown-linux-musl`
+* `x86_64-macos-darwin`
 * `x86_64-unknown-linux-gnu`
 * `x86_64-unknown-linux-musl`
 * PRs welcome -- see [Contributing](#contributing)
