@@ -10,3 +10,4 @@ First release including partial support for:
 * `x86_64-macos-darwin` – thanks @metame for the contribution!
 * `x86_64-unknown-linux-gnu`
 * `x86_64-unknown-linux-musl`
+* `x86_64-unknown-freebsd`

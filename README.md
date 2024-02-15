@@ -12,6 +12,7 @@ Preliminary platform support includes:
 * `x86_64-macos-darwin`
 * `x86_64-unknown-linux-gnu`
 * `x86_64-unknown-linux-musl`
+* `x86_64-unknown-freebsd`
 * PRs welcome -- see [Contributing](#contributing)
 
 None of these are complete, but they are being extended on a need basis.
