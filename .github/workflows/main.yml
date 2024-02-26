@@ -46,6 +46,7 @@ jobs:
           allow-prerelease-opam: ${{ matrix.allow-prerelease-opam }}
           opam-repositories: ${{ matrix.opam-repositories }}
 
+      - run: opam pin config.0.0.2 git+https://github.com/ocaml-sys/config.ml -y
       - run: opam install . --deps-only --with-test
 
       - run: opam exec -- dune build
