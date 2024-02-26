@@ -10,7 +10,7 @@ tags: ["libc" "platform" "bindings" "raw bindings"]
 homepage: "https://github.com/ocaml-sys/libc.ml"
 bug-reports: "https://github.com/ocaml-sys/libc.ml/issues"
 depends: [
-  "config" {>= "0.0.1"}
+  "config" {= "0.0.2"}
   "ocaml" {>= "5.1.1"}
   "dune" {>= "3.12"}
   "odoc" {with-doc}

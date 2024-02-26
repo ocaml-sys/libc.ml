@@ -18,7 +18,7 @@
  (synopsis "Raw definitions and bindings to platforms system libraries")
  (description "`libc provides definitions (and in the future bindings) to easily interoperate with C code (or C-like code) on several platforms, and it does this with a target and architecture aware API.")
  (depends 
-   (config (>= "0.0.1"))
+   (config (= "0.0.2"))
    (ocaml (>= "5.1.1"))
    dune)
  (tags
