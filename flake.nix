@@ -1,6 +1,7 @@
 {
   description = "Raw bindings to platform APIs for OCaml.";
   inputs.config.url = "github:ocaml-sys/config.ml";
+  inputs.config.inputs.nixpkgs.follows = "nixpkgs";
   inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
 
   outputs = inputs@{ flake-parts, ... }:
